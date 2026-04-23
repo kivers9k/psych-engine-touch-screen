@@ -28,6 +28,11 @@ import objects.BGSprite;
 import states.PlayState;
 import states.LoadingState;
 
+#if (desktop || mobile)
+import sys.FileSystem;
+import sys.io.File;
+#end
+
 //Flixel
 #if (flixel >= "5.3.0")
 import flixel.sound.FlxSound;
