@@ -44,7 +44,7 @@ jobs:
 
     - name: compile
       run: |
-        haxelib run lime run android
+        haxelib run lime build android
 
     - name: upload artifact 
       uses: actions/upload-artifact@main
