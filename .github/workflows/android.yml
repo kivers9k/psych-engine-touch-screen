@@ -23,8 +23,7 @@ jobs:
     
     - name: Install Libraries
       run: |
-        haxelib install hmm --quiet
-        haxelib run hmm install --quiet
+        haxelib git discord_rpc 
 
     - name: Configure Android
       run: |
@@ -35,7 +34,7 @@ jobs:
 
     - name: compile
       run: |
-        lime run android
+        haxelib lime run android
 
     - name: upload artifact 
       uses: actions/upload-artifact@main
