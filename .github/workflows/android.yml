@@ -30,7 +30,7 @@ jobs:
         haxelib install hscript 2.7.0
         haxelib install hxCodec 2.5.1
         haxelib git hxcpp https://github.com/kittycathy233/hxcpp.git main
-        haxelib install lime 8.3.0
+        haxelib git lime https://github.com/kittycathy233/lime main
         haxelib git linc_luajit https://github.com/superpowers04/linc_luajit master
         haxelib install openfl 9.5.0
         haxelib install tjson 1.4.0
