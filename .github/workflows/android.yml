@@ -1,0 +1,13 @@
+name: mobile_build
+
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  Android:
+    runs-on: ubuntu-latest
+
+    -uses: actions/checkout@v2
